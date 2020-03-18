@@ -1,0 +1,107 @@
+body {
+  font-family: Aclonica;
+  background: linear-gradient(35deg, #64d1b6, #92b6e6);
+  color: #dda0dd;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+#quote-text {
+  font-size: 35px;
+  font-family: cursive;
+  padding-bottom: 30px;
+}
+
+.button-details:hover {
+  background: #e4f1fe;
+}
+
+.button-details {
+  font-family: Aclonica;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #13614e;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background: #88dae9;
+  color: #008080;
+  text-decoration: none;
+  outline: none;
+}
+
+#quoteDisplay {
+  border-radius: 3px;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: rgb(16, 93, 107);
+  }
+
+  10% {
+    color: #9b7da8;
+  }
+
+  20% {
+    color: #207262;
+  }
+
+  30% {
+    color: #d184c7;
+  }
+
+  40% {
+    color: rgb(71, 71, 206);
+  }
+
+  50% {
+    color: #7f8c99;
+  }
+
+  60% {
+    color: rgb(125, 175, 204);
+  }
+
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #c48449;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  100% {
+    color: rgb(209, 139, 151);
+  }
+}
